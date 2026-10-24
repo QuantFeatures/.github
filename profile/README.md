@@ -21,7 +21,7 @@ The computation framework has been developed and used in the leading professiona
 
 ### Historical Feature Datasets
 
-Research-ready, interval-based market features generated from historical market data, with configurable intervals from 15 minutes to 1 hour.
+Research-ready, interval-based market features generated from historical market data, with configurable intervals from 10 minutes to 3 hours; longer intervals are available on request.
 
 ### Client-Hosted Real-Time Feature Computation
 
