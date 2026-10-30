@@ -21,7 +21,10 @@ The computation framework has been developed and used in the leading professiona
 
 ### Historical Feature Datasets
 
-Research-ready, interval-based market features generated from historical market data, at the interval you choose, from 1 minute to 3 hours; longer intervals are available on request.
+Continuous history for Hyperliquid and Binance, at intervals from 30 seconds to 3 hours, available on request in two ways:
+
+1. **Delivered datasets:** we source the tick data and deliver features at intervals from 10 minutes to 3 hours.
+2. **Your own tick data:** if you license Tardis data, we compute features at any interval from 30 seconds to 1 hour.
 
 ### Client-Hosted Real-Time Feature Computation
 
@@ -29,7 +32,7 @@ A stateful computation engine designed to run on customers' own infrastructure u
 
 ## Sample Dataset and Documentation
 
-Free showcase samples: hourly features for the first UTC day of each month on Binance, OKX, Bybit, and Hyperliquid, with full schemas and coverage. The hourly interval is for the samples only; datasets are delivered at the interval you choose.
+Free showcase samples: hourly features for the first UTC day of each month on Binance, OKX, Bybit, and Hyperliquid, with full schemas and coverage. The hourly interval is for the samples only; full datasets use the interval you choose.
 
 - **[QuantFeatures Sample Dataset](https://github.com/QuantFeatures/FeatureSamples)**: gzip-compressed Parquet files, methodology, and reading examples.
 - **[Hugging Face datasets](https://huggingface.co/QuantFeatures)**: the same samples, one dataset per venue, loadable with `datasets` or pandas.
