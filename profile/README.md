@@ -1,4 +1,4 @@
-# QuantFeatures
+# QuantFeatures AI
 
 **Research-ready interval-based quantitative features from raw tick-based or event-based market data.**
 
@@ -21,7 +21,7 @@ The computation framework has been developed and used in the leading professiona
 
 ### Historical Feature Datasets
 
-Research-ready, interval-based market features generated from historical market data, with configurable intervals from 10 minutes to 3 hours; longer intervals are available on request.
+Research-ready, interval-based market features generated from historical market data, at the interval you choose, from 1 minute to 3 hours; longer intervals are available on request.
 
 ### Client-Hosted Real-Time Feature Computation
 
@@ -29,10 +29,10 @@ A stateful computation engine designed to run on customers' own infrastructure u
 
 ## Sample Dataset and Documentation
 
-Free hourly samples for Binance USDT spot and perpetual instruments, with full schemas and coverage.
+Free showcase samples: hourly features for the first UTC day of each month on Binance, OKX, Bybit, and Hyperliquid, with full schemas and coverage. The hourly interval is for the samples only; datasets are delivered at the interval you choose.
 
 - **[QuantFeatures Sample Dataset](https://github.com/QuantFeatures/FeatureSamples)**: gzip-compressed Parquet files, methodology, and reading examples.
-- **[Hugging Face dataset](https://huggingface.co/datasets/QuantFeatures/binance-hourly-features)**: the same features as one Parquet file per module, loadable with `datasets` or pandas.
+- **[Hugging Face datasets](https://huggingface.co/QuantFeatures)**: the same samples, one dataset per venue, loadable with `datasets` or pandas.
 - **[Feature Catalog](https://github.com/QuantFeatures/FeatureCatalog)**: module and field definitions, timestamp semantics, and coverage.
 
 ## Partnerships
