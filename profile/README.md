@@ -21,6 +21,8 @@ The computation framework has been developed and used in the leading professiona
 
 ### Historical Feature Datasets
 
+Nearly 7 years of history, December 2019 to today, cleaned and systematically prepared the same way across venues and years. Historical and real-time features come from the same computation, so what you backtest is what you run in production.
+
 Continuous history for Hyperliquid and Binance, at intervals from 30 seconds to 3 hours, available on request in two ways:
 
 1. **Delivered datasets:** we source the tick data and deliver features at intervals from 10 minutes to 3 hours.
